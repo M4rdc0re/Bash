@@ -1,4 +1,5 @@
 #!/bin/bash
+# Author: Mardcore
 
 for i in {01..12};
   do for x in {01..31};
