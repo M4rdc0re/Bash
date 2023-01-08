@@ -1,4 +1,5 @@
 #!/bin/bash
+# Author: Mardcore
 
 #Loop by line
 IFS=$'\n'
