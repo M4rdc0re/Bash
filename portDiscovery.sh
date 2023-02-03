@@ -4,7 +4,7 @@
 hosts=($@)
 
 if [[ "$1" == "-h" || "$1" == "--help" ]]; then
-    echo "Usage: 192.168.1.20 192.168.1.21"
+    echo "Usage: ./portDiscovery.sh 192.168.1.20 192.168.1.21"
 else
     for host in ${hosts[@]}; do
         echo -e "\n[+] Scanning ports on $host\n"
